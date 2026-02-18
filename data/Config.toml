@@ -1,22 +1,993 @@
-[General]
-Enabled = true
-VerticalRecoil = 3.00
-HorizontalRecoil = 0.00
-
-[Controller]
-Enabled = false
-Multiplier = 10
-
-[Keys]
-# Use https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
-# And then convert the key code to decimal
-# Toggle Key (e.g. 20 = CAPS LOCK)
-ToggleKey = 20
-ToggleKeyEnabled = false
-
-
-[Theme]
-BackgroundColour = RGB(30, 30, 30)
-TextColour = RGB(230, 230, 230)
-ButtonColour = RGB(70, 70, 70)
-LineColour = RGB(180, 180, 180)
+115: !This program cannot be run in DOS mode.
+    610: .text
+    657: `.rdata
+    727: @.data
+   1000: .pdata
+   1047: @.rsrc
+   1117: @.reloc
+   2205: D$0H
+   2212: T$ H
+   2226: D$8H
+   2251: D$@H
+   2265: D$HH
+   2301: D$PH
+   2315: D$XH
+   2331: D$`H
+   2345: D$hH
+   2361: D$pH
+   2375: D$xH
+   3040: D$0H
+   3045: D$ H
+   3104: MPH3
+   3205: D$0H
+   3212: T$ H
+   3226: D$8H
+   3251: D$@H
+   3265: D$HH
+   3301: D$PH
+   3315: D$XH
+   3331: D$`H
+   3345: D$hH
+   3361: D$pH
+   3375: D$xH
+   4053: D$0H
+   4060: D$ H
+   4117: M`H3
+   4225: D$0H
+   4232: T$ H
+   4246: D$8H
+   4271: D$@H
+   4305: D$HH
+   4321: D$PH
+   4335: D$XH
+   4351: D$`H
+   4365: D$hH
+   4401: D$pH
+   4415: D$xH
+   5060: D$0H
+   5065: D$ H
+   5124: MPH3
+   5225: D$0H
+   5232: T$ H
+   5246: D$8H
+   5271: D$@H
+   5305: D$HH
+   5312: D$PH
+   5326: D$XH
+   5342: D$`H
+   5356: D$hH
+   5372: D$pH
+   5406: D$xH
+   6064: D$0H
+   6071: D$ H
+   6130: M`H3
+   6244: \$0H
+   6422: \$0H
+   6501: \$0H
+   6747: \$0H
+   7401: |$ AVH
+   7520: D$P3
+   7536: \$HH
+   7605: \$`I
+   7665: WATAUAWH
+  10025: t$xH;
+  10065: d$XL
+  10101: D$PH
+  10134: |$@3
+  10142: D$8P
+  10172: D$ ^
+  10407: A'H;
+  10523: d$XL
+  10537: D$PH
+  10572: |$@3
+  10600: D$8P
+  10630: D$ ^
+  11041: d$XL
+  11055: D$PH
+  11110: |$@3
+  11116: D$8P
+  11372: A'H;
+  11506: d$XL
+  11522: D$PH
+  11555: |$@3
+  11563: D$8P
+  12024: d$XL
+  12040: D$PH
+  12073: |$@3
+  12101: D$8(
+  12121: D$( 
+  12131: D$ 9
+  12355: A'H;
+  12471: d$XL
+  12505: D$PH
+  12540: |$@3
+  12546: D$8(
+  12566: D$( 
+  12576: D$ 9
+  13007: d$XL
+  13023: D$PH
+  13056: |$@3
+  13064: D$8(
+  13104: D$( 
+  13340: A'H;
+  13375: d$ E3
+  13477: d$XL
+  13513: D$PH
+  13546: |$@3
+  13554: D$8(
+  13574: D$( 
+  14022: D$` 
+  14032: D$d<
+  14044: D$8	
+  14064: L$0A
+  14076: D$((
+  14150: t$xH
+  14212: A_A]A\_
+  14237: L$@L
+  14244: L$dH
+  14261: L$0L
+  14306: L$(H
+  14313: L$`H
+  14365: SVATAUH
+  14523: |$xH;
+  14563: \$XL
+  14577: D$PH
+  14632: d$@3
+  14640: D$8(
+  14670: D$ 9
+  15105: A'H;
+  15222: \$XL
+  15236: D$PH
+  15271: d$@3
+  15277: D$8(
+  15327: D$ 9
+  15540: \$XL
+  15554: D$PH
+  15607: d$@3
+  15615: D$8(
+  16071: A'H;
+  16206: \$XL
+  16222: D$PH
+  16255: d$@3
+  16263: D$8(
+  16524: \$XL
+  16540: D$PH
+  16573: d$@3
+  16601: D$8(
+  16631: D$ 9
+  17055: A'H;
+  17172: \$XL
+  17206: D$PH
+  17241: d$@3
+  17247: D$8(
+  17277: D$ 9
+  17532: t$8A
+  17545: |$0A
+  17557: D$((
+  20022: A'H;
+  20057: \$ E3
+  20130: t$8A
+  20143: |$0A
+  20167: D$((
+  20410: D$`9
+  20452: L$0A
+  20464: D$((
+  20536: |$xL
+  20600: A]A\^[
+  20624: L$@L
+  20631: L$dH
+  20646: L$0L
+  20673: L$(H
+  20700: L$`H
+  20740: @WATH
+  21072: l$XL
+  21106: D$PH
+  21141: d$@3
+  21147: D$8(
+  21167: D$(9
+  21242: hA\_
+  21361: |$`M
+  21465: A'H;
+  21522: l$ E3
+  21624: l$XL
+  21640: D$PH
+  21673: d$@3
+  21701: D$8(
+  21721: D$(9
+  22104: |$`L
+  22132: hA\_
+  22160: @USVWAUAVAWH
+  22670: D$ %
+  23026: D$ %
+  23161: D$ $
+  23311: D$ $
+  23400: D$ $
+  23475: D$ $
+  23567: D$ $
+  23661: D$ $
+  24011: D$ $
+  24144: D$ $
+  24227: D$ $
+  24320: D$ $
+  24406: D$ $
+  24474: D$ $
+  24722: L$ I
+  25075: D$ %
+  25224: D$ %
+  25527: D$ $
+  25644: D$ &
+  25715: D$ %
+  26104: D$(n
+  26121: D$ n
+  26436: L$ I
+  26706: D$ $
+  27107: D$ $
+  27273: D$ $
+  27445: D$ $
+  30632: D$ %
+  31035: D$ %
+  31304: D$ %
+  31461: D$ %
+  31617: D$ $
+  31727: D$ $
+  32025: D$ $
+  32147: D$ $
+  32257: D$ $
+  32367: D$ $
+  32477: D$ $
+  32607: D$ $
+  32761: D$ $
+  33034: D$@ 
+  33050: \$0L
+  34030: \$ E3
+  34207: \$ E3
+  34251: |$hE3
+  34260: D$` 
+  34352: |$hE3
+  34361: D$` 
+  34374: \$X3
+  34511: |$h3
+  34623: |$hE3
+  34752: |$hE3
+  37745: A_A^A]_^[]
+  40074: |$ UH
+  40261: t$XA
+  40274: \$P3
+  40303: t$HH
+  40464: T$hL
+  40474: T$(H
+  40516: t$ H
+  40540: D$`H
+  40616: L$xH
+  40623: L$(3
+  40644: D$pH
+  41137: @85^
+  41172: 9D$ht=
+  41201: (D$`H
+  41236: )D$`f
+  41253: 9t$xtK
+  41267: 9D$xu
+  41312: (D$pH
+  41472: VWAVH
+  41524: \$@H
+  41535: t"x Hi
+  42065: tN|LH
+  42207: \$HH
+  42214: l$PH
+  42222:  A^_^
+  42377: D$ 3
+  42452: t$@3
+  42623: t$@H
+  42633: \$HH
+  42651: t$ E3
+  42702: l$ VATAWH
+  43021: \$`H
+  43032: |$hH
+  43045: t$pL
+  43155: A'H;
+  43217: \$ 3
+  43342: T$8H
+  43365: T$(I
+  43377: L$ H
+  43526: |$hH
+  43536: \$`L
+  43543: t$pH
+  43550: l$xH
+  43556: @A_A\^
+  43622: l$ VATAWH
+  43741: \$`H
+  43752: |$hH
+  43765: t$pL
+  44075: A'H;
+  44137: \$ 3
+  44262: T$8H
+  44305: T$(I
+  44317: L$ H
+  44446: |$hH
+  44456: \$`L
+  44463: t$pH
+  44470: l$xH
+  44476: @A_A\^
+  45037: t$HH
+  45053: \$@H
+  45343: L$PH
+  45410: D$PHc
+  45460: L$PL
+  45516: L$PHc
+  45550: L$PHc
+  46047: L$PHc
+  46104: L$PH
+  46400: L$PHc
+  46432: L$PHc
+  46464: L$PHc
+  46516: L$PHc
+  46607: L$@H
+  46625: T$PH
+  46740: @SVH
+  46766: D$h3
+  47004: t$0E3
+  47156: L$@H
+  47163: t$ D
+  47257: L$hH3
+  47305: D$@H
+  47315: t$x@
+  47451: |$pL
+  47526: <[uA
+  50247: B:D)
+  51301: |$pL
+  51344: x	A;
+  51361: t$xH
+  52027:  t	A
+  52211: D$(P
+  52473: |$0L
+  52500: |$8t
+  52667: l$ VWATAVAWH
+  53010: H+2H
+  53110: N'H;
+  53373: d$ E3
+  53420: D$(P
+  53431: d$ E3
+  53462: |$8H
+  53513: D$8H
+  53670: A_A^A\_^
+  54026: \$0H
+  54033: t$8H
+  54060: @SVAVAWH
+  54533: D$hE
+  54542: D$P 
+  54555: D$HA
+  54564: D$dH
+  54573: D$@3
+  54605: D$0H
+  54612: l$(D
+  54700: l$ E
+  55002: A_A^^[
+  55112: D$@H
+  55201: T$0H
+  55235: T$0H
+  55300: D$ %
+  55354: \$XH
+  55361: L$@H3
+  55434: L$ SVWH
+  55453: t$`H
+  55470: t$(L
+  55546: 0_^[
+  55562: t$ ATAVAWH
+  55702: \$PH
+  55721: l$XH
+  55734: |$`H;
+  56027: O'H;
+  56372: |$`H
+  56414: t$hH
+  56421: l$XH
+  56435: \$PH
+  56452: 0A_A^A\
+  56502: l$ VATAVH
+  56613: \$PH
+  56624: |$XH
+  56637: |$`L
+  56750: A'H;
+  57012: \$ 3
+  57176: |$XI
+  57206: \$PL
+  57213: |$`H
+  57220: l$hH
+  57226: 0A^A\^
+  57422: l$HH
+  57437: t$PH
+  57450: \$@H
+  60022: t Hc
+  60155: \$0I
+  60572: D$XA
+  60640: |$hL
+  60645: d$8L
+  60652: |$ H
+  60657: t$`H
+  60664: l$PL
+  60671: t$(A
+  60701: l$0H
+  60761: |$ AVH
+  61117: O'H;
+  61145: \$ E3
+  61266: \$@H
+  61276: t$PH
+  61303: l$HH
+  61310: |$XH
+  61520: @8-Mp
+  61613: VUUUA
+  61644: tQ@8-
+  61722: VUUUA
+  61774: l$ A
+  62006: l$0H
+  62127: @8-f`
+  62146: |$PH
+  62153: l$XH
+  62514: \$PI;
+  62765: tN|LH
+  63136: |$ L
+  63143: t$(L
+  63150: d$0H
+  63155: |$8H
+  63162: t$@H
+  63167: l$hH
+  63174: \$`H
+  63241: |$ AVH
+  63262: T$xH
+  63334: L$0H
+  63372: D$pL
+  63400: +D$0D
+  63411: \$ +
+  63451: \$PH
+  63456: l$XH
+  63463: t$`H
+  63470: |$hH
+  63707: t!eH
+  64323: uxHc
+  64367: uTL+
+  65231: D$8H
+  65245: D$8H
+  65303: D$@H
+  65601: D$(H
+  65615: D$(H
+  65730: T$0H
+  65766: \$ WH
+  66020: T$PH
+  66046: T$PH
+  66053: L$XH
+  66074: L$0L
+  66104: L$`H
+  66111: L$(3
+  66133: \$hH
+  66144: @SVWH
+  66203: T$`H
+  66226: T$`H
+  66233: L$hH
+  66254: L$0L
+  66264: L$pH
+  66271: L$(3
+  66323: @_^[
+  67407: \$@H
+  67634: t$ WH
+  67654: ntel
+  67662: ineI
+  67701: Genu
+  67760: t(=`
+  67767: t!=p
+  70007:  w$H
+  70370: D$ $
+  70532: D$ "
+  70652: D$ "
+  70773: D$ H
+  71020: \$(3
+  71027: l$0H
+  71034: t$8H
+  71322: L$0L
+  71341: L$(H
+  71352: L$ 3
+  71376: L$PH
+  71517: D$PH
+  71524: D$@H
+  71637: L$ D
+  71702: ED$`H
+  71765: u0HcH<
+  72121: ;csm
+  72176: \$03
+  72421:  H3E
+  72504: \$PH
+  72747: \$0H
+  73043: \$0H
+  73575: x AVH
+  73722: \$0H
+  73727: l$8H
+  73734: t$@H
+  73741: |$HH
+ 101660: bad allocation
+ 102020: Unknown exception
+ 102050: bad array new length
+ 102100: BUTTON
+ 102110: ATTACKERS
+ 102130: DEFENDERS
+ 102150: Support the Project
+ 102200: View on GitHub
+ 102220: Important Setup
+ 102240: Toggle Recoil
+ 102260: Change Mode
+ 102300: Toggle Key
+ 102320: Switch to Defenders
+ 102350: Switch to Attackers
+ 102400: Back to Menu
+ 102420: start https://buymeacoffee.com/harryhopkinson
+ 102500: start https://github.com/Harry-Hopkinson/R6-No-Recoil
+ 102570: R6 NO RECOIL
+ 102610: Advanced Recoil Compensation System
+ 102660: Key Features
+ 102700: - All R6 operators supported
+ 102740: - Multiple sensitivity presets
+ 103000: - Customisable toggle controls
+ 103040: - Minimal system impact
+ 103070: - Powerful config support
+ 103130: Quick Start Guide
+ 103160: 1. Choose Attacker or Defender
+ 103220: 2. Select your operator
+ 103250: 3. Pick your primary weapon
+ 103310: 4. Start playing - it's automatic!
+ 103360: 5. Use toggle key to enable/disable
+ 103430: Ready to Get Started?
+ 103460: Select your team below to begin configuration
+ 103540: Created by Harry Hopkinson
+ 103600: Version 2.2 | Open Source
+ 103640: Visit GitHub for updates and source code
+ 103720: ENABLED
+ 103730: DISABLED
+ 103750: Status: %s
+ 103770: Mode: %s
+ 104020: Toggle: %s
+ 104040: Recoil: V:%d H:%d
+ 104070: Select a primary weapon:
+ 104124: Back
+ 104140: IMPORTANT SETUP
+ 104160: For best performance and accuracy, follow these steps:
+ 106100: NoRecoilWindow
+ 106120: R6 No Recoil
+ 106140: vector too long
+ 106160: Config.toml
+ 106200: [RecoilPresets]
+ 106240: # 0 = VERY LOW, 1 = LOW, 2 = MEDIUM, 3 = HIGH, 4 = ULTRA, 5 = EXTREME
+ 106350: Mode = %d
+ 106364: true
+ 106374: false
+ 106410: Enabled = %s
+ 106440: # Vertical recoil amounts for each preset
+ 106520: LowSensVertical = %d
+ 106550: MediumSensVertical = %d
+ 106610: HighSensVertical = %d
+ 106640: UltraSensVertical = %d
+ 106700: ExtremeSensVertical = %d
+ 106740: # Horizontal recoil amounts for each preset
+ 107020: LowSensHorizontal = %d
+ 107060: MediumSensHorizontal = %d
+ 107120: HighSensHorizontal = %d
+ 107160: UltraSensHorizontal = %d
+ 107220: ExtremeSensHorizontal = %d
+ 107260: # Use https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
+ 107410: # And then convert the key code to decimal
+ 107470: # Toggle Key (e.g. 20 = CAPS LOCK)
+ 107540: ToggleKey = %d
+ 107570: RecoilPresets
+ 107610: Mode
+ 107620: Enabled
+ 107630: LowSensVertical
+ 107650: LowSensHorizontal
+ 107700: MediumSensVertical
+ 107730: MediumSensHorizontal
+ 107760: HighSensVertical
+ 110010: HighSensHorizontal
+ 110040: UltraSensVertical
+ 110070: UltraSensHorizontal
+ 110120: ExtremeSensVertical
+ 110150: ExtremeSensHorizontal
+ 110200: ToggleKey
+ 110220: assets/weapons/
+ 110240: Failed to load weapon bitmap: %s
+ 110304: NULL
+ 110320: Failed to load operator bitmap: %s
+ 110370: No Image
+ 110420: \assets\operators\
+ 110444: .bmp
+ 110460: VERY LOW
+ 110500: MEDIUM
+ 110510: HIGH
+ 110520: ULTRA
+ 110530: EXTREME
+ 110540: Striker
+ 110550: Sledge
+ 110560: Thatcher
+ 110600: Thermite
+ 110614: Twitch
+ 110624: Glaz
+ 110634: Fuze
+ 110650: Buck
+ 110660: Blackbeard
+ 110700: Capitao
+ 110710: Hibana
+ 110720: Jackal
+ 110730: Ying
+ 110740: Zofia
+ 110750: Dokkaebi
+ 110764: Lion
+ 110774: Finka
+ 111010: Maverick
+ 111024: Nomad
+ 111040: Gridlock
+ 111054: Nokk
+ 111064: Amaru
+ 111074: Kali
+ 111104: Iana
+ 111120: Zero
+ 111130: Flores
+ 111144: Sens
+ 111154: Grim
+ 111164: Brava
+ 111200: Deimos
+ 111210: Rauora
+ 111220: Sentry
+ 111230: Smoke
+ 111240: Mute
+ 111250: Castle
+ 111260: Pulse
+ 111274: Rook
+ 111304: Kapkan
+ 111320: Tachanka
+ 111334: Jager
+ 111344: Bandit
+ 111354: Frost
+ 111370: Valkyrie
+ 111410: Caveira
+ 111420: Echo
+ 111430: Mira
+ 111440: Lesion
+ 111454: Vigil
+ 111470: Maestro
+ 111500: Alibi
+ 111510: Kaid
+ 111520: Mozzie
+ 111530: Warden
+ 111540: Goyo
+ 111550: Wamai
+ 111560: Oryx
+ 111570: Melusi
+ 111600: Aruni
+ 111610: Thunderbird
+ 111624: Thorn
+ 111634: Azami
+ 111644: Solis
+ 111654: Fenrir
+ 111670: Tubarao
+ 111700: Skopos
+ 111710: Denari
+ 111720: M4, M249, SR-25
+ 111740: L85A2, M590A1
+ 111760: L85A2, AR33, M590A1
+ 112010: R4-C, G36C
+ 112030: 556XI, M1014
+ 112050: F2, 417, SG-CQB
+ 112070: OTs-03
+ 112100: AK-12, 6P41
+ 112120: G8A1, 552-Commando, AUG-A2-Acog
+ 112160: C8-SFW, CAMRS
+ 112200: MK17-CQB, SR-25
+ 112220: PARA-308, M249
+ 112240: Type-89, SUPERNOVA
+ 112270: C7E, PDW9, ITA12L
+ 112320: T-95-LSW, SIX12
+ 112340: M762, LMG-E
+ 112360: Mk-14-EBR, BOSG.12.2
+ 112410: V308, 417, SG-CQB
+ 112440: Spear-308-Acog, 6P41, SASG-12
+ 112500: M4, AR-15.50
+ 112520: AK-74M, ARX200
+ 112540: F90, M249-SAW
+ 112560: FMG-9, SIX12-SD
+ 112600: G8A1, SUPERNOVA
+ 112620: CSRX-300
+ 112640: G36C, ARX200
+ 112660: AK-12, M1014
+ 112700: SC3000K, MP7
+ 112720: AR33, SR-25
+ 112740: 556XI, PDW9
+ 112760: POF-9, 417
+ 113000: 552-Commando, SG-CQB
+ 113030: PARA-308, CAMRS
+ 113050: R4-C, LMG-E
+ 113070: AK-74M, M590A1
+ 113110: 417, M249
+ 113130: Commando-9, M870, TCSG12
+ 113170: FMG-9, M590A1
+ 113210: M590A1, MP5K
+ 113230: UMP45, M1014
+ 113250: P90, MP5, SG-CQB
+ 113300: MP5, P90, SG-CQB
+ 113330: 9x19VSN, SASG-12
+ 113360: DP27, 9x19VSN
+ 113400: 416-carbine, M870
+ 113430: MP7, M870
+ 113450: 9mm-C1, Super-90
+ 113500: MPX, SPAS-12
+ 113520: M12, SPAS-15
+ 113540: MP5SD, SUPERNOVA
+ 113570: Vector, ITA12L
+ 113610: T-5, SIX12-SD
+ 113630: Scorpion-EVO, FO-12
+ 113660: K1A, BOSG.12.2
+ 113700: ALDA, ACS12
+ 113720: Mx4-Storm, ACS12
+ 113750: AUG-A3, TCSG12
+ 113770: Commando-9, P10-RONI
+ 114020: MPX, M590A1
+ 114040: Vector, TCSG12
+ 114060: AUG-A2, MP5K
+ 114100: T-5, SPAS-12
+ 114120: MP5, Super-90
+ 114140: P10-RONI, Mk-14-EBR
+ 114170: Spear-308, SPAS-15
+ 114220: UZK50GI, M870
+ 114240: 9x19VSN, ACS12
+ 114260: P90, ITA12L
+ 114300: MP7, SASG-12
+ 114320: MPX, AR-15.50
+ 114340: PCX-33
+ 114350: Scorpion-EVO, FMG-9
+ 114404: MP5K
+ 114414: MP5SD
+ 114424: UMP45
+ 114440: 9x19VSN
+ 114450: FMG-9
+ 114460: Mx4-Storm
+ 114510: Scorpion-EVO
+ 114534: Vector
+ 114550: P10-RONI
+ 114570: Commando-9
+ 114604: 9mm-C1
+ 114620: PDW9
+ 114630: POF-9
+ 114640: SC3000K
+ 114650: UZK50GI
+ 114660: AK-12
+ 114674: AR33
+ 114704: 556XI
+ 114714: G36C
+ 114724: R4-C
+ 114734: C8-SFW
+ 114750: MK17-CQB
+ 114770: PARA-308
+ 115010: Type-89
+ 115024: M762
+ 115034: AK-74M
+ 115044: ARX200
+ 115060: AUG-A2
+ 115070: AUG-A2-Acog
+ 115104: AUG-A3
+ 115120: 552-Commando
+ 115140: L85A2
+ 115150: V308
+ 115160: Spear-308
+ 115200: Spear-308-Acog
+ 115220: 416-carbine
+ 115240: DP27
+ 115250: 6P41
+ 115260: G8A1
+ 115270: ALDA
+ 115300: T-95-LSW
+ 115314: LMG-E
+ 115324: M249
+ 115340: M249-SAW
+ 115360: SR-25
+ 115370: Mk-14-EBR
+ 115404: CAMRS
+ 115420: AR-15.50
+ 115434: M590A1
+ 115444: M1014
+ 115454: SG-CQB
+ 115470: SASG-12
+ 115500: M870
+ 115510: Super-90
+ 115530: SPAS-12
+ 115540: SPAS-15
+ 115550: SIX12
+ 115560: SIX12-SD
+ 115574: TCSG12
+ 115604: FO-12
+ 115614: ACS12
+ 115630: BOSG.12.2
+ 115644: ITA12L
+ 115660: SUPERNOVA
+ 115700: Segoe UI
+ 115714: Arial
+ 117744: GCTL
+ 117760: .text$di
+ 120004: .text$mn
+ 120030: .text$mn$00
+ 120054: .text$x
+ 120074: .text$yd
+ 120120: .idata$5
+ 120144: .00cfg
+ 120164: .CRT$XCA
+ 120210: .CRT$XCAA
+ 120234: .CRT$XCU
+ 120260: .CRT$XCZ
+ 120304: .CRT$XIA
+ 120330: .CRT$XIAA
+ 120354: .CRT$XIAC
+ 120400: .CRT$XIZ
+ 120424: .CRT$XPA
+ 120450: .CRT$XPZ
+ 120474: .CRT$XTA
+ 120520: .CRT$XTZ
+ 120544: .rdata
+ 120564: .rdata$r
+ 120610: .rdata$voltmd
+ 120640: .rdata$zzzdbg
+ 120670: .rtc$IAA
+ 120714: .rtc$IZZ
+ 120740: .rtc$TAA
+ 120764: .rtc$TZZ
+ 121010: .xdata
+ 121030: .xdata$x
+ 121054: .idata$2
+ 121100: .idata$3
+ 121124: .idata$4
+ 121150: .idata$6
+ 121174: .data
+ 121214: .data$r
+ 121234: .data$rs
+ 121260: .bss
+ 121300: .pdata
+ 121320: .rsrc$01
+ 121344: .rsrc$02
+ 130702: GetModuleHandleA
+ 130726: ReadFile
+ 130742: WriteFile
+ 130756: CreateFileA
+ 130774: CloseHandle
+ 131012: GetFileSize
+ 131030: OutputDebugStringA
+ 131056: GetModuleFileNameA
+ 131102: KERNEL32.dll
+ 131122: EndPaint
+ 131136: BeginPaint
+ 131154: InvalidateRect
+ 131176: UpdateWindow
+ 131216: PostQuitMessage
+ 131240: DrawTextW
+ 131254: PeekMessageA
+ 131274: GetClientRect
+ 131314: LoadIconA
+ 131330: SendMessageA
+ 131350: TranslateMessage
+ 131374: CreateWindowExA
+ 131416: DefWindowProcA
+ 131440: RegisterClassA
+ 131462: FrameRect
+ 131476: DrawTextA
+ 131512: ShowWindow
+ 131530: wsprintfA
+ 131544: FillRect
+ 131560: PostMessageA
+ 131600: DestroyWindow
+ 131620: DispatchMessageA
+ 131644: LoadImageA
+ 131662: SendInput
+ 131676: GetAsyncKeyState
+ 131722: FindWindowA
+ 131736: USER32.dll
+ 131754: CreateSolidBrush
+ 132000: DeleteObject
+ 132020: SetStretchBltMode
+ 132044: MoveToEx
+ 132060: Rectangle
+ 132074: CreatePen
+ 132110: LineTo
+ 132122: SetBkMode
+ 132136: SetTextColor
+ 132156: DeleteDC
+ 132172: GetStockObject
+ 132214: CreateCompatibleDC
+ 132242: SelectObject
+ 132262: CreateCompatibleBitmap
+ 132314: BitBlt
+ 132326: SetBrushOrgEx
+ 132346: GetObjectA
+ 132364: StretchBlt
+ 132402: TextOutA
+ 132416: GetTextExtentPoint32A
+ 132446: CreateFontA
+ 132462: GDI32.dll
+ 132476: _Query_perf_frequency
+ 132526: ?_Throw_Cpp_error@std@@YAXH@Z
+ 132566: ?_Xlength_error@std@@YAXPEBD@Z
+ 132630: _Cnd_do_broadcast_at_thread_exit
+ 132674: _Thrd_id
+ 132710: _Query_perf_counter
+ 132736: _Thrd_join
+ 132752: MSVCP140.dll
+ 132772: __CxxFrameHandler4
+ 133020: __std_exception_destroy
+ 133052: __std_exception_copy
+ 133102: strchr
+ 133114: __C_specific_handler
+ 133144: _CxxThrowException
+ 133172: __current_exception
+ 133220: __current_exception_context
+ 133256: memset
+ 133266: VCRUNTIME140_1.dll
+ 133312: VCRUNTIME140.dll
+ 133336: _invoke_watson
+ 133360: _beginthreadex
+ 133402: system
+ 133414: terminate
+ 133430: strtok
+ 133442: strncpy
+ 133454: atoi
+ 133464: __stdio_common_vsprintf_s
+ 133520: strncpy_s
+ 133534: strcpy_s
+ 133550: strcat_s
+ 133564: srand
+ 133574: rand
+ 133604: _time64
+ 133616: _callnewh
+ 133632: malloc
+ 133644: _configure_narrow_argv
+ 133676: _initialize_narrow_environment
+ 133740: _initialize_onexit_table
+ 133774: _register_onexit_function
+ 134030: _crt_atexit
+ 134046: _cexit
+ 134060: free
+ 134070: _seh_filter_exe
+ 134112: _set_app_type
+ 134132: __setusermatherr
+ 134156: _get_narrow_winmain_command_line
+ 134222: _initterm
+ 134236: _initterm_e
+ 134254: exit
+ 134264: _exit
+ 134274: _set_fmode
+ 134312: _c_exit
+ 134324: _register_thread_local_exe_atexit_callback
+ 134402: _configthreadlocale
+ 134430: _set_new_mode
+ 134450: __p__commode
+ 134466: api-ms-win-crt-runtime-l1-1-0.dll
+ 134530: api-ms-win-crt-string-l1-1-0.dll
+ 134572: api-ms-win-crt-convert-l1-1-0.dll
+ 134634: api-ms-win-crt-stdio-l1-1-0.dll
+ 134674: api-ms-win-crt-utility-l1-1-0.dll
+ 134736: api-ms-win-crt-time-l1-1-0.dll
+ 134776: api-ms-win-crt-heap-l1-1-0.dll
+ 135036: api-ms-win-crt-math-l1-1-0.dll
+ 135076: api-ms-win-crt-locale-l1-1-0.dll
+ 135142: RtlCaptureContext
+ 135166: RtlLookupFunctionEntry
+ 135220: RtlVirtualUnwind
+ 135244: UnhandledExceptionFilter
+ 135300: SetUnhandledExceptionFilter
+ 135336: GetCurrentProcess
+ 135362: TerminateProcess
+ 135406: IsProcessorFeaturePresent
+ 135442: IsDebuggerPresent
+ 135466: GetStartupInfoW
+ 135510: GetModuleHandleW
+ 135534: QueryPerformanceCounter
+ 135566: GetCurrentProcessId
+ 135614: GetCurrentThreadId
+ 135642: GetSystemTimeAsFileTime
+ 135674: InitializeSListHead
+ 135722: Sleep
+ 135732: memmove
+ 135744: strcmp
+ 135756: memcpy
+ 141010: .?AVbad_alloc@std@@
+ 141060: .?AVexception@std@@
+ 141130: .?AVbad_array_new_length@std@@
+ 141210: .?AVtype_info@@
